@@ -1,0 +1,58 @@
+#
+# This is your en_gb language file. Please refer to the documentation for more information.
+#
+msgctxt "regex_cheat_sheet"
+msgid "RegEx Cheat Sheet"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "Character classes"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "any character except newline"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "word, digit, whitespace"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "not word, digit, whitespace"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "any of a, b, or c"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "not a, b, or c"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "characters between a and g"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "Anchors"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "start / end of the string"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "word, not-word boundary"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "Escaped characters"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "escaped special characters"
+msgstr ""
+
+msgctxt "regex_cheat_sheet"
+msgid "tab, linefeed, carriage return"
+msgstr ""

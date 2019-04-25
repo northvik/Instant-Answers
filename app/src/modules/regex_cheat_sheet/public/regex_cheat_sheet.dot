@@ -1,0 +1,78 @@
+<!--
+ This is your main template file. Please refer to the documentation for more information.
+-->
+<link rel="stylesheet" href="css/regex_cheat_sheet.css" type="text/css">
+<div class="ia__regex_cheat_sheet">
+    <span class="ia__regex_cheat_sheet__title">
+         {{= _("RegEx Cheat Sheet", "regex_cheat_sheet") }}
+    </span>
+    <div class="ia__regex_cheat_sheet__containers">
+        <table class="ia__regex_cheat_sheet__container">
+            <tbody>
+            <tr>
+                <th colspan="2">
+                    {{= _("Character classes", "regex_cheat_sheet") }}
+                </th>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>{{= _("any character except newline", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>\w \d \s</td>
+                <td>{{= _("word, digit, whitespace", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>\W \D \S</td>
+                <td>{{= _("not word, digit, whitespace", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>[abc]</td>
+                <td>{{= _("any of a, b, or c", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>[^abc]</td>
+                <td>{{= _("not a, b, or c", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>[a-g]</td>
+                <td>{{= _("characters between a and g", "regex_cheat_sheet") }}</td>
+            </tr>
+            </tbody>
+        </table>
+        <table class="ia__regex_cheat_sheet__container">
+            <tbody>
+            <tr>
+                <th colspan="2">
+                    {{= _("Anchors", "regex_cheat_sheet") }}
+                </th>
+            </tr>
+            <tr>
+                <td>^abc$</td>
+                <td>{{= _("start / end of the string", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>\b \B</td>
+                <td>{{= _("word, not-word boundary", "regex_cheat_sheet") }}</td>
+            </tr>
+            </tbody>
+        </table>
+        <table class="ia__regex_cheat_sheet__container">
+            <tbody>
+            <tr>
+                <th colspan="2">
+                    {{= _("Escaped characters", "regex_cheat_sheet") }}
+                </th>
+            </tr>
+            <tr>
+                <td>\. \* \\</td>
+                <td>{{= _("escaped special characters", "regex_cheat_sheet") }}</td>
+            </tr>
+            <tr>
+                <td>\t \n \r</td>
+                <td>{{= _("tab, linefeed, carriage return", "regex_cheat_sheet") }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
