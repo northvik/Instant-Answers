@@ -2,8 +2,22 @@
 * This is your main SCSS file. Please refer to the documentation for more information.
 */
 .ia__regex_cheat_sheet {
+  font-family: Asap, 'Segoe UI', 'Helvetica', 'Droid Sans', sans-serif;
   margin: 10px;
   span.ia__regex_cheat_sheet__title {
+    font-weight: bold;
+    font-size: 30px;
+  }
 
+  .ia__regex_cheat_sheet__containers {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    table {
+      border: 1px solid #c8cbd3;
+      margin: 10px;
+      flex-grow: 1;
+    }
   }
 }
